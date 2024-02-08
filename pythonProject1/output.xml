@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.4 on win32)" generated="2024-02-08T20:56:36.712147" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc1" source="C:\Users\HP\PycharmProjects\pythonProject1\testcases\tc1.robot">
+<kw name="Open Browser" type="SETUP">
+<kw name="Create Webdriver">
+<msg time="2024-02-08T20:56:36.753095" level="FAIL">No keyword with name 'Create Webdriver' found.</msg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-02-08T20:56:36.753095" elapsed="0.000000">No keyword with name 'Create Webdriver' found.</status>
+</kw>
+<kw name="Go To">
+<arg>${url}</arg>
+<status status="NOT RUN" start="2024-02-08T20:56:36.753095" elapsed="0.000000"/>
+</kw>
+<arg>https://www.google.com</arg>
+<arg>Chrome</arg>
+<status status="FAIL" start="2024-02-08T20:56:36.751070" elapsed="0.003025">No keyword with name 'Create Webdriver' found.</status>
+</kw>
+<test id="s1-t1" name="Test Search Google" line="8">
+<status status="FAIL" start="2024-02-08T20:56:36.754095" elapsed="0.000000">Parent suite setup failed:
+No keyword with name 'Create Webdriver' found.</status>
+</test>
+<status status="FAIL" start="2024-02-08T20:56:36.714115" elapsed="0.042939">Suite setup failed:
+No keyword with name 'Create Webdriver' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tc1">Tc1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-02-08T20:56:36.749107" level="ERROR">Error in file 'C:\Users\HP\PycharmProjects\pythonProject1\testcases\tc1.robot' on line 3: Importing library 'Selenium2Library' failed: ModuleNotFoundError: No module named 'Selenium2Library'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  c:\users\hp\appdata\local\programs\python\python39\python39.zip
+  c:\users\hp\appdata\local\programs\python\python39\DLLs
+  c:\users\hp\appdata\local\programs\python\python39\lib
+  c:\users\hp\appdata\local\programs\python\python39
+  c:\users\hp\appdata\local\programs\python\python39\lib\site-packages</msg>
+</errors>
+</robot>
